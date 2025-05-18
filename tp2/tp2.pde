@@ -5,7 +5,7 @@ int timer=0;
 int pantalla=0;
 boolean pausa= false;
 int velocidad= 1;
-String instrucciones = " -presionar \"d\" y \"s\" para pasar de pantalla\n -presionar \"espacio\" para pausar";
+String instrucciones = " -presionar \"d\" y \"a\" para pasar de pantalla\n -presionar \"espacio\" para pausar";
 
 void setup() {
   size(640, 480);
