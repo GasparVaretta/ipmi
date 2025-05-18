@@ -1,4 +1,4 @@
-//musica de fondo:https://www.youtube.com/watch?v=l3jmDt_qYUE
+//musica de fondo:https://github.com/GasparVaretta/ipmi/tree/tp2
 PFont fuenteProcessing;
 PImage pantalla0, pantalla1, pantalla2, pantalla3, pantalla4, pantalla5, pantalla6, pantalla7, pantalla8, pantalla9, pantalla10, pantalla11, pantalla12;
 int timer=0;
@@ -81,7 +81,7 @@ void draw() {
 
   textos();
 
-  text(mouseX+ "-" +mouseY, mouseX, mouseY);
+  //text(mouseX+ "-" +mouseY, mouseX, mouseY);
 }
 
 void mouseClicked() {
